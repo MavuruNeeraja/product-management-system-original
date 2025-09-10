@@ -12,7 +12,7 @@ const generateToken = (userId) => {
 };
 
 // Register
-router.post('/register', async (req, res) => {}
+router.post('/register', async (req, res) => {
   try {
     const { name, email, password, role } = req.body;
 
